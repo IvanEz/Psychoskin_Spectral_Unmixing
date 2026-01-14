@@ -1,7 +1,6 @@
-# Spectral Analysis Project
 
 ## Overview
-This project analyses Raman/reflectance spectra using constrained non‑negative matrix factorisation (NMF) and UMAP visualisation strategies. It supports fixing known basis spectra while discovering unknown components, multimodal fusion UMAP, and weighted UMAP. Statistical comparisons between cohorts (Stress vs Control) can be generated from NMF weights.
+This project repository contains code to analyze Raman/reflectance spectra using constrained non-negative matrix factorization (NMF) and UMAP visualization strategies. It supports fixing known basis spectra while discovering unknown components, multimodal fusion UMAP, and weighted UMAP. Statistical comparisons between cohorts (Stress vs Control) can be generated from NMF weights.
 
 ## Project Structure
 ```
@@ -128,4 +127,6 @@ Note: If you need two‑sided tests or FDR corrections, extend `plot.py` accordi
 
 ## Notes
 - Plots are saved to disk without opening GUI windows. To show interactively, pass `show=True` to `plot_and_save_spectra` when calling it.
-- `results/` and `plots/` are ignored by git via `.gitignore`.
+
+## Contacts
+For questions regarding the code, please contact fatih.ozlugedik@tum.de and ivan.ezhov@tum.de
