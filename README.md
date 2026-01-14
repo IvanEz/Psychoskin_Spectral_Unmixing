@@ -1,6 +1,6 @@
 
 ## Overview
-This project repository contains code to analyze Raman/reflectance spectra using constrained non-negative matrix factorization (NMF) and UMAP visualization strategies. It supports fixing known basis spectra while discovering unknown components, multimodal fusion UMAP, and weighted UMAP. Statistical comparisons between cohorts (Stress vs Control) can be generated from NMF weights.
+This project repository contains the code to analyze Raman/reflectance spectra using constrained non-negative matrix factorization (NMF) and UMAP visualization strategies. It supports fixing known basis spectra while discovering unknown components, multimodal fusion UMAP, and weighted UMAP. Statistical comparisons between cohorts (Stress vs Control) can be generated from NMF weights.
 
 ## Project Structure
 ```
